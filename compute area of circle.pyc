@@ -1,0 +1,5 @@
+a=1.1
+print("The radius of circle is "+ str(a))
+from math import pi 
+
+print ("The area of the circle with radius " + str(a) + " is: " + str(pi * a**2))
