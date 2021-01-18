@@ -1,0 +1,6 @@
+fn = "abc.Python"
+print ("Entered Filename: "+ str(fn))
+
+f = fn.split(".")
+
+print ("Extension of the file is : " + f[-1])
